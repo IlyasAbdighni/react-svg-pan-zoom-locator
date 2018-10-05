@@ -1,12 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+// export {default as ReactSVGPanZoom} from './viewer';
+// export {default as Toolbar} from './ui-toolbar/toolbar';
+// export {default as Miniature} from './ui-miniature/miniature';
+// export {setPointOnViewerCenter, reset} from './features/common';
+// export {pan} from './features/pan';
+// export {zoom, fitSelection, fitToViewer, zoomOnViewerCenter} from './features/zoom';
+// export {openMiniature, closeMiniature} from './features/miniature'
+// export * from './constants';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// export const Viewer = () => {
+//   let msg = "HEY! You are trying to use an older version of ReactSVGPanZoom. "
+//     + "Read here https://github.com/chrvadala/react-svg-pan-zoom/blob/master/docs/migrate-from-v1-to-v2.md";
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: http://bit.ly/CRA-PWA
-serviceWorker.unregister();
+//   console.error(msg);
+//   return null;
+// };
+
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+
+ReactDOM.render(<App />, document.getElementById("root"));
