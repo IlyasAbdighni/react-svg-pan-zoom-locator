@@ -354,6 +354,7 @@ export default class ReactSVGPanZoom extends React.Component {
           position: "relative",
           width: value.viewerWidth,
           height: value.viewerHeight,
+          overflow: "hidden",
           ...props.style
         }}
         className={this.props.className}

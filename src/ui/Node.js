@@ -95,6 +95,7 @@ class App extends Component {
     const { width, top, left, height } = this.state;
 
     console.log("+++++++++++++++++++++");
+    console.log("node state: ", this.state);
     console.log("node props: ", this.props);
     console.log("=====================");
 
